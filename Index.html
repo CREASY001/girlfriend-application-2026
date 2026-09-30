@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girlfriend Application Form - 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; }
+        .font-official { font-family: 'Cinzel', serif; }
+        .font-cursive { font-family: 'Great Vibes', cursive; }
+        @media print {
+            .no-print { display: none !important; }
+            .print-area { display: block !important; width: 100% !important; margin: 0 !important; background: white !important; }
+            body { background: white !important; color: black !important; }
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen pb-12">
+
+    <!-- Header Banner -->
+    <header class="bg-slate-900 border-b border-rose-500/30 py-6 px-4 text-center shadow-lg no-print">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 bg-rose-600 rounded-full flex items-center justify-center text-white text-2xl shadow-md">
+                    <i class="fa-solid fa-stamp"></i>
+                </div>
+                <div class="text-left">
+                    <h1 class="font-official text-xl font-bold tracking-wider text-rose-400">DEPARTMENT OF HEART & HAPPINESS</h1>
+                    <p class="text-xs text-slate-400">Official Girlfriend Application & Compliance Portal</p>
+                </div>
+            </div>
+            <span class="bg-rose-500/20 text-rose-300 text-xs px-3 py-1 rounded-full border border-rose-500/40 uppercase tracking-widest font-semibold">
+                Contract: Long-Term, Renewable Indefinitely
+            </span>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 mt-8">
+
+        <!-- Form Section -->
+        <div id="formContainer" class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-10 shadow-2xl no-print">
+            
+            <div class="text-center mb-8 border-b border-slate-800 pb-6">
+                <h2 class="text-2xl md:text-3xl font-official font-bold text-white mb-2">GIRLFRIEND APPLICATION FORM - 2026</h2>
+                <p class="text-xs text-rose-400 font-mono uppercase tracking-widest mb-1">Position Applied For: My Girlfriend | Department: My Heart & Happiness</p>
+                <p class="text-xs text-slate-400">Application Fee: R0.00 — but wasting my time will result in immediate rejection.</p>
+            </div>
+
+            <form id="gfForm" class="space-y-8">
+                
+                <!-- SECTION 1: PERSONAL INFORMATION -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 1: PERSONAL INFORMATION
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Full Name:</label>
+                            <input type="text" id="fullName" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Age:</label>
+                            <input type="text" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Where are you from?</label>
+                            <input type="text" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Occupation:</label>
+                            <input type="text" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Do you have children?</label>
+                            <select class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-rose-500 outline-none">
+                                <option>No</option>
+                                <option>Yes - How many?</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Relationship Status:</label>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs text-slate-300">
+                                <label><input type="radio" name="rel_status" required class="mr-1 accent-rose-500"> Single</label>
+                                <label><input type="radio" name="rel_status" class="mr-1 accent-rose-500"> Complicated</label>
+                                <label><input type="radio" name="rel_status" class="mr-1 accent-rose-500"> "We're basically broken up"</label>
+                                <label><input type="radio" name="rel_status" class="mr-1 accent-rose-500"> Other</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Do you currently have a boyfriend/husband/"situationship"?</label>
+                            <div class="flex gap-4 text-xs text-slate-300">
+                                <label><input type="radio" name="sit_status" required class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="sit_status" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="sit_status" class="mr-1 accent-rose-500"> It's complicated</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 2: RELATIONSHIP HISTORY -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 2: RELATIONSHIP HISTORY
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">How long was your last relationship?</label>
+                            <input type="text" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Why did it end?</label>
+                            <input type="text" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Are you completely over your ex?</label>
+                            <div class="flex gap-4">
+                                <label><input type="radio" name="over_ex" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="over_ex" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="over_ex" class="mr-1 accent-rose-500"> I still check their page sometimes</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you still communicate with your ex?</label>
+                            <div class="flex gap-4">
+                                <label><input type="radio" name="comm_ex" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="comm_ex" class="mr-1 accent-rose-500"> Yes - Explain below</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">What did your previous relationship teach you?</label>
+                            <textarea rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 3: EMOTIONAL INTELLIGENCE -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 3: EMOTIONAL INTELLIGENCE
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">When you're angry with your partner, what do you normally do?</label>
+                            <input type="text" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">If your boyfriend tells you that something you did hurt him, what would you do?</label>
+                            <input type="text" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Can you communicate when you're upset instead of disappearing?</label>
+                            <div class="flex flex-wrap gap-4">
+                                <label><input type="radio" name="comm_upset" class="mr-1 accent-rose-500"> Absolutely</label>
+                                <label><input type="radio" name="comm_upset" class="mr-1 accent-rose-500"> I need time, but I communicate</label>
+                                <label><input type="radio" name="comm_upset" class="mr-1 accent-rose-500"> I disappear for 3 business days</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">How do you handle disagreements?</label>
+                            <input type="text" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 4: COMMUNICATION TEST -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 4: COMMUNICATION TEST
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">Your boyfriend sends you a message and you're busy. What do you do?</label>
+                            <div class="space-y-1">
+                                <label class="block"><input type="radio" name="busy_msg" class="mr-1 accent-rose-500"> Ignore him until I'm free</label>
+                                <label class="block"><input type="radio" name="busy_msg" class="mr-1 accent-rose-500"> Tell him I'm busy and respond when I can</label>
+                                <label class="block"><input type="radio" name="busy_msg" class="mr-1 accent-rose-500"> Send a quick "I'm busy, I'll text you later"</label>
+                                <label class="block"><input type="radio" name="busy_msg" class="mr-1 accent-rose-500"> Depends on my mood</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">How often do you like communicating with your partner?</label>
+                            <div class="flex flex-wrap gap-3">
+                                <label><input type="radio" name="comm_freq" class="mr-1 accent-rose-500"> All day</label>
+                                <label><input type="radio" name="comm_freq" class="mr-1 accent-rose-500"> Throughout the day</label>
+                                <label><input type="radio" name="comm_freq" class="mr-1 accent-rose-500"> Morning & evening</label>
+                                <label><input type="radio" name="comm_freq" class="mr-1 accent-rose-500"> Whenever I remember</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Are you comfortable with phone calls/video calls?</label>
+                            <div class="flex gap-4">
+                                <label><input type="radio" name="calls" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="calls" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="calls" class="mr-1 accent-rose-500"> Depends who's calling</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 5: RED FLAG DISCLOSURE -->
+                <div class="bg-rose-950/20 p-5 rounded-xl border border-rose-900/40">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-2 border-b border-rose-900/40 pb-2">
+                        [ ] SECTION 5: RED FLAG DISCLOSURE
+                    </h3>
+                    <p class="text-[11px] text-rose-300/70 italic mb-4">Please answer HONESTLY. Lying on this section will result in immediate termination of application.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you cheat?</label>
+                            <select class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                                <option>No</option>
+                                <option>Sometimes</option>
+                                <option>I believe "it's not cheating if..."</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you entertain other men while in a relationship?</label>
+                            <select class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                                <option>No</option>
+                                <option>Sometimes</option>
+                                <option>I just like attention</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you flirt with other men?</label>
+                            <select class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                                <option>No</option>
+                                <option>Yes</option>
+                                <option>Only when I'm bored</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you have anger issues?</label>
+                            <select class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                                <option>No</option>
+                                <option>Sometimes</option>
+                                <option>Yes - but I'm working on it</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you lie?</label>
+                            <select class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                                <option>Never</option>
+                                <option>Sometimes</option>
+                                <option>Everyone lies</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">What is your biggest red flag?</label>
+                            <input type="text" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 6: GIRLFRIEND DUTIES -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 6: GIRLFRIEND DUTIES
+                    </h3>
+                    <p class="text-xs text-slate-300 font-semibold mb-2">Rate yourself from 1-10:</p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs mb-4">
+                        <div><label>Communication:</label><input type="number" min="1" max="10" value="10" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                        <div><label>Loyalty:</label><input type="number" min="1" max="10" value="10" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                        <div><label>Affection:</label><input type="number" min="1" max="10" value="10" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                        <div><label>Romance:</label><input type="number" min="1" max="10" value="10" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                        <div><label>Patience:</label><input type="number" min="1" max="10" value="10" class="w-full bg-slate-90
